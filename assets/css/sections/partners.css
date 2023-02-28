@@ -1,0 +1,14 @@
+#academic-partners img{
+    width: 150px;
+}
+
+#academic-partners h1::before{
+    content: "";
+    position: absolute;
+    width: 125px;
+    height: 4px;
+    margin: 160px 20px 20px 50px;
+    padding-right: 100px;
+    background-image: linear-gradient( to right, red, orange, yellow, green, blue, indigo, violet );
+
+}

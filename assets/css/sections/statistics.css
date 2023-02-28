@@ -1,0 +1,19 @@
+#statistics {
+    background-image: url(https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 150px;
+    width: 100%;
+    position: relative;
+}
+
+#statistics .row::before {
+    content: "";
+    background-color: black;
+    opacity: .5;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
